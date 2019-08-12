@@ -1,6 +1,6 @@
 # SqMGR - Football Squares Pool Manager
 
-## Code Base
+## The Codebase
 
 Repository | Language | Description
 --- | --- | ---
