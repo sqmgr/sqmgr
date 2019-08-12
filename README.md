@@ -1,5 +1,12 @@
 # SqMGR - Football Squares Pool Manager
 
+## Code Base
+
+Repository | Language | Description
+--- | --- | ---
+[github.com/weters/sqmgr-vue](https://github.com/weters/sqmgr-vue) | Vue.js (JavaScript) | Front-end single-page application written using the Vue.js framework.
+[github.com/weters/sqmgr-api](https://github.com/weters/sqmgr-api) | Go | Backend RESTful web service written in Go. This repo also contains the Liquibase database migrations.
+
 ## What is SqMGR?
 
 SqMGR is a web site for managing your football (or other sports) squares pool. Its source code is open-source.
@@ -35,13 +42,6 @@ Registered users are provisioned through the Auth0 service using [universal logi
 Guest users are provisioned by issuing a `POST` request to the `/user/guest` endpoint on the Go RESTful service. A [JWT](https://jwt.io/) is returned.
 
 ![Guest Authorization Diagram](assets/Guest%20Authorization.png)
-
-## The Code Base
-
-SqMGR is comprised of two primary git repositories:
-
-1. [sqmgr-vue](https://github.com/weters/sqmgr-vue) - This is the Vue application.
-2. [sqmgr-api](https://github.com/weters/sqmgr-api) - This is the backend Go RESTful API. It also contains the database migrations, which are handled by [Liquibase](https://www.liquibase.org).
 
 ## Getting Started
 
