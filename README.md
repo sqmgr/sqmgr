@@ -9,7 +9,7 @@ Repository | Language | Description
 
 ## What is SqMGR?
 
-SqMGR is a web site for managing your football (or other sports) squares pool. Its source code is open-source.
+SqMGR is a web site for managing your football (or other sports) squares pools. Its source code is open-source.
 
 To use SqMGR, visit [sqmgr.com](https://sqmgr.com).
 
@@ -27,7 +27,7 @@ Both the Vue app and Go API have been written for easy deployment into a [Kubern
 
 ## Authorization
 
-There are two types of users in SqMGR: registered users, and guest users. Only registered users may create squares pool. Guest users are able to join a squares pool and claim squares without having to go through a registration process.
+There are two types of users in SqMGR: registered users, and guest users. Only registered users may create a squares pool. Guest users are able to join a squares pool and claim squares without having to go through a registration process.
 
 All requests to the backend API which require user authorization is done with [JWT](https://jwt.io) [bearer tokens](https://tools.ietf.org/html/rfc6750).
 
