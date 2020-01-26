@@ -4,8 +4,8 @@
 
 Repository | Language | Description
 --- | --- | ---
-[github.com/weters/sqmgr-vue](https://github.com/weters/sqmgr-vue) | Vue.js (JavaScript) | Front-end single-page application written using the Vue.js framework.
-[github.com/weters/sqmgr-api](https://github.com/weters/sqmgr-api) | Go | Backend RESTful web service written in Go. This repo also contains the Liquibase database migrations.
+[sqmgr-vue](https://github.com/sqmgr/sqmgr-vue) | Vue.js (JavaScript) | Front-end single-page application written using the Vue.js framework.
+[sqmgr-api](https://github.com/sqmgr/sqmgr-api) | Go | Backend RESTful web service written in Go. This repo also contains the Liquibase database migrations.
 
 ## What is SqMGR?
 
@@ -54,7 +54,7 @@ Guest users are provisioned by issuing a `POST` request to the `/user/guest` end
 
 ### Starting the API
 
-1. Change into the [sqmgr-api](https://github.com/weters/sqmgr-api) directory.
+1. Change into the [sqmgr-api](https://github.com/sqmgr/sqmgr-api) directory.
 2. Create the dev database. This will run a local PostgreSQL server in Docker and expose it through port `5432`.
 
         $ make dev-deb
@@ -73,11 +73,11 @@ You should now be able to verify the service is up and running with cURL.
 $ curl http://localhost:5000/
 ```
         
-For further information, please see the sqmgr-api [README.md](https://github.com/weters/sqmgr-api/blob/master/README.md) file.
+For further information, please see the sqmgr-api [README.md](https://github.com/sqmgr/sqmgr-api/blob/master/README.md) file.
 
 ### Starting Vue
 
-1. Change into the [sqmgr-vue](https://github.com/weters/sqmgr-vue) directory.
+1. Change into the [sqmgr-vue](https://github.com/sqmgr/sqmgr-vue) directory.
 2. Install the npm dependencies.
 
         $ npm install
@@ -88,4 +88,4 @@ For further information, please see the sqmgr-api [README.md](https://github.com
         
 You can now open your web browser and visit [http://localhost:8080/](http://localhost:8080/).
 
-For further information, please see the sqmgr-vue [README.md](https://github.com/weters/sqmgr-vue/blob/master/README.md) file.
+For further information, please see the sqmgr-vue [README.md](https://github.com/sqmgr/sqmgr-vue/blob/master/README.md) file.
