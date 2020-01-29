@@ -5,7 +5,7 @@
 Repository | Language | Description
 --- | --- | ---
 [sqmgr-vue](https://github.com/sqmgr/sqmgr-vue) | Vue.js (JavaScript) | Front-end single-page application written using the Vue.js framework.
-[sqmgr-api](https://github.com/sqmgr/sqmgr-api) | Go | Backend RESTful web service written in Go. This repo also contains the Liquibase database migrations.
+[sqmgr-api](https://github.com/sqmgr/sqmgr-api) | Go | Backend RESTful web service written in Go. This repo also contains the database migrations.
 
 ## What is SqMGR?
 
@@ -49,8 +49,7 @@ Guest users are provisioned by issuing a `POST` request to the `/user/guest` end
 
 1. [Node](https://node.js/)
 2. [Go](https://golang.org/)
-3. [Liquibase](https://www.liquibase.org)
-4. [Docker](https://docker.com)
+3. [Docker](https://docker.com)
 
 ### Starting the API
 
