@@ -46,7 +46,7 @@ Auth | Auth0 | OAuth/OIDC
 
 ## Architecture
 
-![Context Diagram](assets/Context%20Diagram.png)
+![Context Diagram](../assets/Context%20Diagram.png)
 
 SqMGR uses a single-page application (SPA) architecture with a RESTful backend. The Vue frontend communicates with the Go API, which persists data in PostgreSQL. Auth0 handles identity management for registered users.
 
@@ -63,13 +63,13 @@ SqMGR supports two user types with JWT bearer token authentication:
 
 Users authenticate through Auth0's hosted login page and receive a JWT for API access.
 
-![Authorization Diagram](assets/Authorization.png)
+![Authorization Diagram](../assets/Authorization.png)
 
 ### Guest Users
 
 Guests obtain a JWT by calling `POST /user/guest` on the API.
 
-![Guest Authorization Diagram](assets/Guest%20Authorization.png)
+![Guest Authorization Diagram](../assets/Guest%20Authorization.png)
 
 ## Features
 
