@@ -1,8 +1,7 @@
 # SqMGR - Football Squares Pool Manager
 
 [![Vue CI/CD](https://github.com/sqmgr/sqmgr-vue/actions/workflows/main.yaml/badge.svg?branch=master)](https://github.com/sqmgr/sqmgr-vue/actions/workflows/main.yaml)
-[![API Test](https://github.com/sqmgr/sqmgr-api/workflows/Test/badge.svg)](https://github.com/sqmgr/sqmgr-api/actions?query=workflow%3ATest)
-[![API Build](https://github.com/sqmgr/sqmgr-api/workflows/Build/badge.svg)](https://github.com/sqmgr/sqmgr-api/actions?query=workflow%3ABuild)
+[![API CI/CD](https://github.com/sqmgr/sqmgr-api/actions/workflows/main.yaml/badge.svg?branch=master)](https://github.com/sqmgr/sqmgr-api/actions/workflows/main.yaml)
 [![Go Report Card](https://goreportcard.com/badge/github.com/sqmgr/sqmgr-api)](https://goreportcard.com/report/github.com/sqmgr/sqmgr-api)
 
 SqMGR is an open-source web application for managing football squares pools. Try it at [sqmgr.com](https://sqmgr.com).
@@ -14,7 +13,7 @@ SqMGR is an open-source web application for managing football squares pools. Try
 Repository | Description | Status
 --- | --- | ---
 [sqmgr-vue](https://github.com/sqmgr/sqmgr-vue) | Vue.js frontend SPA | [![CI/CD](https://github.com/sqmgr/sqmgr-vue/actions/workflows/main.yaml/badge.svg?branch=master)](https://github.com/sqmgr/sqmgr-vue/actions/workflows/main.yaml)
-[sqmgr-api](https://github.com/sqmgr/sqmgr-api) | Go backend REST API | [![Test](https://github.com/sqmgr/sqmgr-api/workflows/Test/badge.svg)](https://github.com/sqmgr/sqmgr-api/actions?query=workflow%3ATest)
+[sqmgr-api](https://github.com/sqmgr/sqmgr-api) | Go backend REST API | [![CI/CD](https://github.com/sqmgr/sqmgr-api/actions/workflows/main.yaml/badge.svg?branch=master)](https://github.com/sqmgr/sqmgr-api/actions/workflows/main.yaml)
 
 ## Quick Start
 
