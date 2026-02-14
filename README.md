@@ -73,13 +73,41 @@ Guests obtain a JWT by calling `POST /user/guest` on the API.
 
 ## Features
 
-- **Create and manage** football squares pools with customizable grids
-- **Invite players** via shareable links
-- **Guest access** - players can join without creating an account
-- **Real-time updates** - see claimed squares instantly
-- **Multiple grids** - support for playoff brackets and multi-game pools
-- **Mobile-friendly** - responsive design with PWA support
-- **Activity log** - track all pool activity
+### Pool Management
+- **Create pools** with customizable grid types (10x10, 5x10, 5x5 squares)
+- **Multiple grids per pool** - manage up to 50 games in a single pool (ideal for playoffs or season-long pools)
+- **Password protection** - optional password-secured pool access
+- **Invite links** - shareable URLs with automatic pool joining
+- **Pool locking** - freeze pools to prevent new claims while keeping them viewable
+- **Drag-and-drop reordering** - organize games in your preferred order
+
+### Player Experience
+- **Guest access** - join pools without creating an account using lightweight guest tokens
+- **Claim squares** with automatic name persistence
+- **Real-time updates** - Server-Sent Events (SSE) stream updates pool changes instantly
+- **Square annotations** - add notes and icons to specific squares
+- **Payment tracking** - mark squares as paid (partial or full)
+- **Activity log** - complete audit trail of all pool activity
+
+### Grid Customization
+- **Team customization** - set team names, colors, and abbreviations
+- **Manual or automatic draws** - choose random number assignment or pick numbers yourself
+- **Multiple payout configurations** - support standard, halftime/final, quarters, and custom number sets
+- **Sports event linking** - connect grids to live ESPN events (NFL, NBA, WNBA, NCAAB, NCAAF)
+- **Live scores** - automatic score updates and winner highlighting for linked games
+- **Print-friendly layout** - optimized grid printing with branding support
+
+### Admin & Statistics
+- **Admin dashboard** - site-wide statistics and user management
+- **User statistics** - track pools created, pools joined, and square claims
+- **Time-based filtering** - view stats for all time, last 24 hours, 7 days, or 30 days
+- **Pool archiving** - soft-delete pools while preserving history
+
+### Technical Features
+- **Dual authentication** - Auth0 for registered users, JWT tokens for guests
+- **Mobile-responsive** - works seamlessly on phones, tablets, and desktops
+- **Rate limiting** - protection against abuse with configurable limits
+- **RESTful API** - 30+ endpoints for comprehensive pool management
 
 ## Contributing
 
